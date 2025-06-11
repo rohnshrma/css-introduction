@@ -1,4 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
 #header{
+    text-align: center;
     /* background-color: turquoise;
     background: turquoise; */
 
@@ -19,10 +26,78 @@ background-position: center;
 
 /* background-repeat:repeat-x ; */
 /* background-repeat:repeat-y ; */
-    }
+
+
+/* padding : inner space */
+
+/* t-r-b-l */
+padding:8rem;
+
+/* t-b , l-r */
+/* padding: 20px 40px; */
+
+/* t , l-r , b */
+/* padding: 40px 50px 80px; */
+
+/* t ,r,b,l */
+/* padding: 40px 50px 80px 40px; */
+
+/* 1rem : 16px */
+/* padding-top: 1rem;
+padding-bottom: 1rem;
+padding-left: 1rem;
+padding-right: 1rem; */
+
+
+
+/* margin : outer space */
+
+/* t-r-b-l */
+/* margin:8rem; */
+
+/* t-b , l-r */
+/* margin: 20px 40px; */
+
+/* t , l-r , b */
+/* margin: 40px 50px 80px; */
+
+/* t ,r,b,l */
+/* margin: 40px 50px 80px 40px; */
+
+/* 1rem : 16px */
+/* margin-top: 1rem;
+margin-bottom: 1rem;
+margin-left: 1rem;
+margin-right: 1rem; */
+
+
+margin-bottom: 1rem;
+
+
+
+
+/* border-width: 1rem;
+border-style: solid;
+border-color: red; */
+
+
+/* border-top-width: 1rem;
+border-top-style: solid;
+border-top-color: red; */
+
+
+
+border: 1rem solid red;
+/* border-top: 1rem solid red;
+border-right: 1rem solid red;
+border-bottom: 1rem solid red;
+border-left: 1rem solid red; */
+}
 
 
 #header h1{
+    position: relative;
+    top:2000px;
     font-size: 40px;
     letter-spacing: 20px;
     font-family:Sacramento ,fantasy;
